@@ -1,0 +1,60 @@
+{
+  "rvariables": [ "T", "l", "x", "y", "ρ", "ε", "a", "d" ],
+  "uvariables": [ "T", "l", "x", "y", "ρ/ε", "a", "d" ],
+  "linorder": [ "a", "l", "d", "y", "x", "ρ/ε" ],
+  "runits": {
+    "T": "s",
+    "l": "m",
+    "x": "m",
+    "y": "m",
+    "ρ": "kg*m^-3",
+    "ε": "kg*s^-2*m^-1",
+    "a": "m",
+    "d": "m"
+  },
+  "uunits": {
+    "T": "s",
+    "l": "m",
+    "x": "m",
+    "y": "m",
+    "ρ/ε": "s^2*m^{-2}",
+    "a": "m",
+    "d": "m"
+  },
+  "errormargins": {
+    "T": 0.001,
+    "l": 0.001,
+    "x": 0,
+    "y": 0.0001,
+    "ρ": 100,
+    "ε": "10_000_000_000",
+    "a": 0,
+    "d": 0
+  },
+  "determinedexponents": {
+    "T": -1,
+    "l": 0,
+    "x": 0,
+    "y": 0,
+    "ρ/ε": 0,
+    "a": 0,
+    "d": 0
+  },
+  "unitpows": {
+    "m": 0,
+    "s": 0,
+    "kg": 0
+  },
+  "datafilename": "Vibrerande värden.txt",
+  "comment": {
+    "rvariables": "rvariables are all the variables used in the linearization",
+    "uvariables": "uvariables are compositions of the variables",
+    "linorder": "linorder is the order of linearization",
+    "runits": "runits are the SI-units corresponding to the rvariables",
+    "uunits": "uunits are the SI-units corresponding to the uvariables",
+    "errormargins": "errormargins are the margins of error for the rvariables",
+    "unitpows": "just a documentation for the SI-units which occur among the variables",
+    "datafilename": "name of file containing measurement data",
+    "determinedexponents": "if an exponent is determined, put it here; if it is not determined, assign it the value 0, if it is determined and 0, why use it?"
+  }
+}
