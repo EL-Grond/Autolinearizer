@@ -1,14 +1,13 @@
 {
   "rvariables": [ "T", "l", "x", "y", "ρ", "ε", "a", "d" ],
   "uvariables": [ "T", "l", "x", "y", "ρ/ε", "a", "d" ],
-  "linorder": [ "a", "l", "d", "y", "x", "ρ/ε" ],
   "runits": {
     "T": "s",
     "l": "m",
     "x": "m",
     "y": "m",
-    "ρ": "kg*m^-3",
-    "ε": "kg*s^-2*m^-1",
+    "ρ": "kg*m^{-3}",
+    "ε": "kg*s^{-2}*m^{-1}",
     "a": "m",
     "d": "m"
   },
@@ -17,17 +16,17 @@
     "l": "m",
     "x": "m",
     "y": "m",
-    "ρ/ε": "s^2*m^{-2}",
+    "ρ/ε": "s^{2}*m^{-2}",
     "a": "m",
     "d": "m"
   },
   "errormargins": {
-    "T": 0.001,
+    "T": 0.005,
     "l": 0.001,
     "x": 0,
     "y": 0.0001,
     "ρ": 100,
-    "ε": "10_000_000_000",
+    "ε": 10000000000,
     "a": 0,
     "d": 0
   },
@@ -49,7 +48,6 @@
   "comment": {
     "rvariables": "rvariables are all the variables used in the linearization",
     "uvariables": "uvariables are compositions of the variables",
-    "linorder": "linorder is the order of linearization",
     "runits": "runits are the SI-units corresponding to the rvariables",
     "uunits": "uunits are the SI-units corresponding to the uvariables",
     "errormargins": "errormargins are the margins of error for the rvariables",
